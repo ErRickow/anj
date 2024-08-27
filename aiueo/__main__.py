@@ -59,11 +59,11 @@ async def main():
                 LOGS.info(f"Error starting userbot: {e}")
             ex = await cli.get_me()
             LOGS.info(f"Started {ex.first_name}")
-            await cli.send_message("me", "Starting Akeno Userbot")
+            await cli.send_message("me", "Starting Anu Userbot")
             try:
-                await cli.join_chat("RendyProjects")
+                await cli.join_chat("ErProject")
             except UserIsBlocked:
-                return LOGS.info("You have been blocked. Please support @xtdevs")
+                return LOGS.info("You have been blocked. please report to @chakszzz")
         await idle()
     except Exception as e:
         LOGS.info(f"Error in main: {e}")
