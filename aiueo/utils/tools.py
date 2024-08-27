@@ -24,7 +24,7 @@ from pyrogram.raw.types import *
 from pyrogram.types import *
 from pyrogram.types import Message
 
-from Akeno.utils.formatter import humanbytes, readable_time
+from aiueo.utils.formatter import humanbytes, readable_time
 
 DEVS = [1191668125]
 
