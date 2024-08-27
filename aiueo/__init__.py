@@ -21,7 +21,7 @@ from pyrogram.handlers import MessageHandler
 from pyrogram.raw.all import layer
 from pyrogram.types import *
 
-from Akeno.utils.logger import LOGS
+from aiueo.utils.logger import LOGS
 from config import API_HASH, API_ID, SESSION
 
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
