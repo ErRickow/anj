@@ -49,7 +49,7 @@ __version__ = {
 client = Client(
     "one",
     app_version="latest",
-    device_model="Akeno",
+    device_model="ErAuah",
     system_version="Linux",
     api_id=API_ID,
     api_hash=API_HASH,
