@@ -7,7 +7,7 @@ from pyrogram.enums import ChatType
 from pyrogram.handlers import MessageHandler
 from pyrogram.types import Message
 
-from Akeno.utils.helps import ModuleHelp
+from aiueo.utils.helps import ModuleHelp
 
 group_only = [ChatType.GROUP, ChatType.SUPERGROUP]
 Akeno = Client.on_message
