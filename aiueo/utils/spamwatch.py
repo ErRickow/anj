@@ -1,7 +1,7 @@
 import requests
 
-from Akeno.utils.database import db
-from Akeno.utils.logger import LOGS
+from aiueo.utils.database import db
+from aiueo.utils.logger import LOGS
 from config import *
 
 
