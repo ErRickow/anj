@@ -54,6 +54,6 @@ client = Client(
     api_id=API_ID,
     api_hash=API_HASH,
     session_string=SESSION,
-    plugins=dict(root="Akeno.plugins"),
+    plugins=dict(root="aiueo.plugins"),
 )
 clients.append(client)
