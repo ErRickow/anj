@@ -784,4 +784,4 @@ class SqliteDatabase(Database):
         return self.get("core.chatbot", "chatai_users", default=[])
 
 
-db = Database(MONGO_URL)
+db = Database(DATABASE_NAME)
