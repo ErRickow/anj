@@ -5,7 +5,7 @@ from motor import motor_asyncio
 from motor.core import AgnosticClient
 
 from Akeno.utils.logger import LOGS
-from config import MONGO_URL
+from config import MONGO_URL, db_type, db_name
 
 
 class Database:
