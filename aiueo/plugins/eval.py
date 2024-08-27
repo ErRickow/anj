@@ -25,8 +25,8 @@ from pyrogram.raw.types import *
 from pyrogram.raw.types import InputGroupCall, InputPeerChannel, InputPeerChat
 from pyrogram.types import *
 
-from Akeno.utils.handler import *
-from Akeno.utils.tools import *
+from aiueo.utils.handler import *
+from aiueo.utils.tools import *
 from config import CMD_HANDLER
 
 
