@@ -11,7 +11,7 @@ from config import MONGO_URL, db_type, db_name
 class Database:
     def __init__(self, uri: str) -> None:
         self.client: AgnosticClient = motor_asyncio.AsyncIOMotorClient(uri)
-        self.db = self.client["Akeno"]
+        self.db = self.client["aiueo"]
 
         self.afk = self.db["afk"]
         self.antiflood = self.db["antiflood"]
