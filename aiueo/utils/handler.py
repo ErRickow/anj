@@ -10,8 +10,8 @@ from pyrogram.types import Message
 from aiueo.utils.helps import ModuleHelp
 
 group_only = [ChatType.GROUP, ChatType.SUPERGROUP]
-Akeno = Client.on_message
-Akeno_chat_member_updated = Client.on_chat_member_updated()
+Uer = Client.on_message
+Uer_chat_member_updated = Client.on_chat_member_updated()
 script_path = pathlib.Path(__file__).parent.parent
 modules_help = ModuleHelp()
 scheduler_jobs = []
